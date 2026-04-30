@@ -50,7 +50,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6">
-                    <p>Logo</p>
+                    <img src="assets/logo.png" alt="Logo" class="img-fluid" style="width: 100px; height: auto;">
                 </div>
                 <div class="col-md-6 text-end">
                     <a href="index.php" class="btn btn-outline-primary me-2">Pemesanan</a>
