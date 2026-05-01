@@ -20,13 +20,11 @@
 ## Struktur Folder
 📦tugas_praktik_komdigi
  ┣ 📂assets
- ┃ ┣ 📜logo-ruang-meeting.png
- ┃ ┗ 📜logo-studio-musik.png
- ┣ 📜README.md
- ┣ 📜connection_mysql.php
- ┣ 📜connection_sqlite.php
- ┣ 📜db_pemesan.sql
- ┣ 📜db_pemesanan.db
- ┣ 📜halaman_data_pemesanan.php
- ┣ 📜halaman_pemesanan.php
- ┗ 📜myFunction.php
+ ┃ ┣ 📜logo.png
+ ┣ 📜db.php
+ ┣ 📜index.php
+ ┣ 📜README.MD
+ ┣ 📜riwayat.php
+ 
+
+ 

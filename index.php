@@ -17,9 +17,9 @@
         $jam_selesai = filter_input(INPUT_POST, 'jam_selesai', FILTER_SANITIZE_SPECIAL_CHARS);
 
         // Hitung durasi
-        $start = new DateTime($jam_mulai);
+        $start = new DateTime($jam_mulai); //Ubah jam jadi object waktu
         $end = new DateTime($jam_selesai);
-        $interval = $start->diff($end);
+        $interval = $start->diff($end); //Hitung selisih waktu
         $hours = $interval->h + ($interval->i / 60); // jam desimal
 
         // Tentukan harga per jam berdasarkan hari
